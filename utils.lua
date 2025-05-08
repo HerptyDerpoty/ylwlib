@@ -12,7 +12,7 @@ function remove_table_element(array, to_be_removed)
 end
 
 --same function but for array of strings
-function Remove_value(array, to_be_removed)
+function remove_table_element_string(array, to_be_removed)
     for _, i in pairs(to_be_removed) do
         for index, value in pairs(array) do
             if value == i then
