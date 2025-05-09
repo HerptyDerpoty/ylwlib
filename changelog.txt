@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2025-05-09
+  Changes:
+    - changes functions to be locals you need to call by requiring ylwlib via local utils = require("__ylwlib__.utils") and then utils.function_name() instead of being globals, ty for pointing out that this is was a bad idea
+---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 2025-05-08
   Changes:
